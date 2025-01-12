@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Project</title>
+    <style>
+      .container {
+        margin-left: 100px;
+        margin-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Event Registration</h1>
+      <form>
+        <label for="name">Name</label><br /><br />
+        <input type="text" name="name" id="name" /><br />
+        <label for="email">Email</label><br /><br />
+        <input type="email" name="email" id="email" /><br />
+        <label for="phone">Phone :</label><br /><br />
+        <input type="tel" name="phone" id="phone" /><br /><br />
+        <label for="occupation">Occupation :</label><br /><br />
+        <select name="occupation" id="occupation">
+          <option value="other">Other</option>
+          <option value="student">Student</option>
+          <option value="professional">Professional</option></select
+        ><br /><br />
+        <fieldset>
+          <legend>Topics of interest</legend>
+          <input type="checkbox" name="html" id="html" />
+          <label for="html">HTML</label><br /><br />
+          <input type="checkbox" name="css" id="css" />
+          <label for="css">CSS</label><br /><br />
+          <input type="checkbox" name="js" id="js" />
+          <label for="js">JavaScript</label><br /><br />
+        </fieldset>
+        <label for="comments">Comments:</label><br /><br />
+        <textarea name="comments" id="comments" cols="30" rows="7"></textarea
+        ><br /><br />
+        <input type="submit" name="submit" id="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>

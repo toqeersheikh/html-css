@@ -1,0 +1,22 @@
+body {
+  position: relative;
+}
+
+.container {
+  border: 10px solid blueviolet;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  /* position: relative; */
+}
+
+.innerBox {
+  /* position: absolute; */
+  /* top: 35%; */
+  /* left: 75%; */
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}

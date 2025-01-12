@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <!-- fieldset is used to group multiple elements -->
+      <!-- legend is used to caption a fieldselt -->
+      <legend>Html Forms Practice</legend>
+      <form action="">
+        <label for="datePicker">Select Date :</label>
+        <input type="date" id="datepicker" />
+        <br /><br />
+
+        <label for="selectDish">What is your favorite dish ?</label>
+        <select name="dishes" id="selectDish">
+          <option value="options">Options</option>
+          <option value="biryani">Biryani</option>
+          <option value="korma">Korma</option>
+          <option value="beafPulao">Beaf Pulao</option>
+        </select>
+        <br /><br />
+        <button>Click here</button> <br /><br />
+        <textarea
+          name="text"
+          id="textarea1"
+          placeholder="Enter suggestions..."
+          cols="30"
+          rows="2"
+        ></textarea>
+      </form>
+    </fieldset>
+  </body>
+</html>

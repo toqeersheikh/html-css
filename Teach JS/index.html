@@ -1,0 +1,26 @@
+html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getElementById() example</title>
+    <style>
+      #LINK1 {
+        color: black;
+        font-size: 16px;
+      }
+    </style>
+    <script>
+      function changeLink() {
+        var l = document.getElementById("LINK1");
+        l.style.color = "red";
+        l.style.fontSize = "40px";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>getElementById() example</h1>
+    <a id="LINK1" href="https://www.google.com">GOOGLE</a>
+    <p>Click the below button to apply styling to the above link</p>
+    <button onclick="changeLink()">CHANGE</button>
+  </body>
+</html>
